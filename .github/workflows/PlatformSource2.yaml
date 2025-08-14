@@ -1,0 +1,14 @@
+#Code to be triggered from Platform team
+name: Platform Source Code
+
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  trigger-remote:
+    uses: testid1/ConjurModules/.github/workflows/testconjurmodules.yaml@main
+    with:
+      secretpath: "data%2Fvault%2Fconjurtest%2Fconjurtest%2Fpassword"
