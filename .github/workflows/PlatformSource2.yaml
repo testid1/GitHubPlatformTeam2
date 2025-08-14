@@ -1,4 +1,4 @@
-#Code to be triggered from Platform team
+#Code to be triggered from Platform team#
 name: Platform Source Code
 
 on:
